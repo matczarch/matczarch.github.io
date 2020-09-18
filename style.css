@@ -254,7 +254,8 @@ a:hover
     #bloc_page
     {
         display:flex;
-        background-color: white; 
+        background-color: white;
+         
     }
     #bloc_page h1
     {
@@ -277,11 +278,14 @@ a:hover
         height: 80%;
         margin: auto;
         border-radius: 10px;
+
           
     }
     aside p
     {
-        color: grey;
+        color:white;
+        padding-left: 80px;
+        padding-right: 80px; ; 
     }
     #bloc_image img 
     {
