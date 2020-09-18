@@ -140,6 +140,12 @@ td
 {
     font-family: TREBUCHET MS;   
 }
+#ma_formation p 
+{
+    margin: auto; 
+    margin-right: 200px; 
+    text-align: center;
+}
 #mon_experience
 {
     margin-top: 50px; 
