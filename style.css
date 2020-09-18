@@ -27,8 +27,7 @@ aside
 aside p 
 {
     margin-right: 50px;
-    margin-left: 50px; 
-    margin:auto;  
+    margin-left: 50px;   
 }
 aside h2
 {
@@ -50,15 +49,17 @@ aside h2
 #contenus
 {
     width: 62%;
-    height: 1300px; 
+    height: auto; 
     color: #283593;
+    display: flex; 
+    flex-direction: column;
     margin-right: 50px; 
-    text-align:center;
+    text-align:justify;
     font-family: Trebuchet MS;  
 }
 #contenus h1
 {
-    text-align: center; 
+    margin: auto; 
     color:#3F51B5;
     font-size: 50px; 
     margin-top: 0px;
@@ -67,8 +68,7 @@ aside h2
 }
 #tete p
 {
-    margin-top: 0px;
-    margin-bottom: 100px; 
+    margin: auto; 
     
 }
 #contenus h2
@@ -93,9 +93,10 @@ aside h2
 }
 #mon_experience
 {
-    height: 500px; 
+    height: auto; 
     align-items: center; 
-    margin:auto; 
+    margin:auto;
+  
    
 }
 #liste h4
@@ -130,12 +131,24 @@ td
 #contenus p 
 {
     font-family: Trebuchet MS;
-    text-align: center;
 }
 #mes_competences
 {
     font-family: TREBUCHET MS;   
 }
+#mes_competences p
+{
+    width: auto; 
+    height: auto; 
+    margin-left: 120px; 
+}
+#mes_competences li 
+{
+    width: auto; 
+    height: auto;
+    margin-left: 100px;  
+}
+
 #mes_competences h2 
 {
     margin-top: 20px; 
@@ -165,7 +178,7 @@ td
 #loisir img
 {
     display: block; 
-    width: 70px; 
+    width: 150px; 
     height: auto; 
     margin-right: 20px; 
     margin: auto; 
@@ -205,6 +218,7 @@ footer
     width: 100%;  
     background-color: #283593;
     text-align: center;
+    margin-top: 50px; 
 
 }
 footer p 
