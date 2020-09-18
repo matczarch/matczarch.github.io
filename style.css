@@ -242,6 +242,7 @@ footer p
     #bloc_page
     {
         display:flex;
+        background-color: white; 
     }
     #bloc_page h1
     {
