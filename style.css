@@ -74,7 +74,8 @@ aside h2
 #contenus h2
 {
     color: #1A237E;
-    background-color: #E0E0E0; 
+    background-color: #E0E0E0;
+    text-align: center; 
     width: auto;    
 }
 #contenus img[src="image/work-v2.svg"], img[src="image/pen.svg"], img[src="image/Student.svg"]
@@ -136,6 +137,16 @@ td
 {
     font-family: TREBUCHET MS;   
 }
+#mon_experience
+{
+    margin-top: 50px; 
+}
+#mon_experience h4
+{
+    width: auto;
+    height: auto;
+    margin: auto; 
+} 
 #mes_competences p
 {
     width: auto; 
