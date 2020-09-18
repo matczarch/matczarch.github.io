@@ -48,7 +48,7 @@ aside h2
 }
 #contenus
 {
-    width: 62%;
+    width: 63%;
     height: auto; 
     color: #283593;
     display: flex; 
@@ -153,11 +153,11 @@ td
     height: auto; 
     margin-left: 120px; 
 }
+
 #mes_competences li 
 {
     width: auto; 
-    height: auto;
-    margin-left: 100px;  
+    height: auto; 
 }
 
 #mes_competences h2 
@@ -167,6 +167,8 @@ td
 #mes_competences li
 {
     margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
 
 }
 #pre img
@@ -237,6 +239,15 @@ footer p
     color: #E0E0E0;
     font-size: 11px;  
 }
+a
+{
+    color: #3F51B5; 
+}
+a:hover
+{
+    font-size: 15px; 
+    color: #FF5722;
+}
 @media screen and (max-width: 1280px)
 {
     #bloc_page
@@ -250,7 +261,7 @@ footer p
     }
     aside 
     {
-        width: 80%;
+        width: 100%;
         min-width: 10%; 
         background-color: #283593; 
         height: 80%;
