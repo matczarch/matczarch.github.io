@@ -57,18 +57,20 @@ aside h2
     text-align:justify;
     font-family: Trebuchet MS;  
 }
-#contenus h1
+#bloc_page h1
 {
-    margin: auto; 
+
+    text-align: center;  
     color:#3F51B5;
     font-size: 50px; 
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;  
 
 }
 #tete p
 {
     margin: auto; 
+    text-align: center; 
     
 }
 #contenus h2
