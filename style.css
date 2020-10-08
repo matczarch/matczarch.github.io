@@ -17,7 +17,6 @@ body
 aside
 {
     width: 30%;
-    height: 1400px;
     background-color: #283593;
     display: flex; 
     flex-direction: column;
@@ -51,7 +50,7 @@ aside h2
 #contenus
 {
     width: 63%;
-    height: auto;
+   
     color: #283593;
     display: flex; 
     flex-direction: column;
@@ -137,6 +136,11 @@ td
 #mes_competences
 {
     font-family: TREBUCHET MS;   
+}
+#ma_formation
+{
+    margin-bottom: 50px;
+    text-align: center;
 }
 #ma_formation p 
 {
