@@ -73,9 +73,8 @@ aside h2
 }
 #contenus h2
 {
-    color: #1A237E;
-    background-color: #E0E0E0;
-    text-align: center; 
+    color: black;
+    border-bottom: 2px solid #1A237E; 
     width: auto;    
 }
 #contenus img[src="image/work-v2.svg"], img[src="image/pen.svg"], img[src="image/Student.svg"]
@@ -96,7 +95,7 @@ aside h2
 {
     height: auto; 
     align-items: center; 
-    margin:auto;
+    border: 1px solid black; 
   
    
 }
@@ -140,7 +139,6 @@ td
 #ma_formation
 {
     margin-bottom: 50px;
-    text-align: center;
 }
 #ma_formation p 
 {
@@ -158,30 +156,9 @@ td
     height: auto;
     margin: auto; 
 } 
-#mes_competences p
-{
-    width: auto; 
-    height: auto; 
-    margin-left: 120px; 
-}
 
-#mes_competences li 
-{
-    width: auto; 
-    height: auto; 
-}
 
-#mes_competences h2 
-{
-    margin-top: 20px; 
-}
-#mes_competences li
-{
-    margin-top: 10px;
-    text-align: center;
-    list-style-type: none;
 
-}
 #pre img
 { 
     width: 60px;
@@ -213,42 +190,6 @@ td
     align-items: center; 
     margin: auto; 
     margin-bottom: 30px;  
-}
-#reseau img
-{
-    width: 30px;
-    height: auto;
-    display: flex;
-    margin-right: 20px; 
-     
-}
-#reseau
-{
-    display: flex; 
-    align-items:center; 
-    width: 60px; 
-    margin: auto;
-    
-    padding: 10px; 
-     
-
-}
-footer 
-{ 
-    flex-direction:column;
-    flex-wrap: wrap;
-    align-items :center;
-    height: 150px;
-    width: 100%;  
-    background-color: #283593;
-    text-align: center;
-    margin-top: 50px; 
-
-}
-footer p 
-{
-    color: #E0E0E0;
-    font-size: 11px;  
 }
 a
 {
