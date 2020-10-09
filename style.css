@@ -42,6 +42,7 @@ aside p
 aside h2
 {
     color: #FFA000;
+    font-family: calibri;
     font-size: 30px;
     text-align: center; 
     background-color: #263238; 
@@ -55,6 +56,16 @@ aside h2
     width: 200px; 
     height: 210px; 
     border-radius: 100px; 
+}
+#mdr
+{
+    padding-bottom: 0px;
+    border-bottom: 2px solid #FFA000;
+}
+#contenus p
+{
+    font-size: 25px; 
+    color: #37474F;
 }
 #contenus
 {
