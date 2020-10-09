@@ -253,7 +253,7 @@ a:hover
     {
         width: 100%;
         min-width: 10%; 
-        background-color: #283593; 
+        background-color: #FFA000; 
         height: 80%;
         margin: auto;
         border-radius: 10px;
@@ -269,6 +269,10 @@ a:hover
     #bloc_image img 
     {
         border-radius: 20px; 
+    }
+    #aproposdemoi
+    {
+        margin: 0px;
     }
     #contenus
     {
