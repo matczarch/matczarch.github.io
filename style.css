@@ -3,9 +3,16 @@ body
     height: 1500px;
     max-height: 1500px; 
 }
+
+td
+{
+    width: 400px;
+    padding-top: 20px; 
+    border-collapse: collapse;
+}
 #aproposdemoi 
 {
-    margin-bottom: 100px; 
+    margin-bottom: 350px; 
 }
 #lol
 {
@@ -134,7 +141,7 @@ aside h2
     border-collapse: collapse;  
 }
 
-td
+#liste td
 {
     width: 400px;
     margin-top: 0px; 
@@ -150,7 +157,7 @@ td
 
 #contenus p 
 {
-    font-family: Calibri;
+    font-family: Myriad;
 }
 #mes_competences
 {
