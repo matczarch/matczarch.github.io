@@ -158,6 +158,10 @@ aside h2
 {
     margin-bottom: 5px; 
     padding: 0px; 
+}#table2 td
+{
+    width: 400px;
+    padding-top: 20px; 
 }
 
 #contenus p 
