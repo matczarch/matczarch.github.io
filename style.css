@@ -25,7 +25,6 @@ td
 {
     display: flex;
     flex-wrap: wrap;  
-    align-items: left;
     justify-content: space-between;
     margin: 10px; 
     background-color: #ECEFF1; 
@@ -108,14 +107,13 @@ aside h2
     border-bottom: 2px solid #FFA000; 
     width: auto;
 }
-#contenus img[src="image/Plan de travail 111.png"], img[src="image/pen.svg"], img[src="image/Plan de travail 113.png"], img[src="image/Plan de travail 112.png"]
+#contenus img[src="image/111.png"], img[src="image/pen.svg"], img[src="image/113.png"], img[src="image/112.png"]
 {
     width: 30px;  
     align-items: center; 
     margin: auto; 
     height: auto; 
     margin-right: 30px; 
-    background-image:#FFFFFF; 
 }
 #contenus img[src="image/Student.svg"]
 {
@@ -150,7 +148,7 @@ aside h2
 {
     width: 400px;
     margin-top: 0px; 
-    padding-top: 20x;
+    padding-top: 20px;
  
 
 }
