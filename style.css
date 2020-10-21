@@ -254,7 +254,6 @@ a
     margin-right: auto;
     display: flex; 
     flex-direction: row;
-    align-items: left;
     justify-content: left;
 }
 #te p 
@@ -324,17 +323,12 @@ a:hover
         min-width: 320px;
         margin: auto; 
     }
-    #
-    #pre img 
-    {
-        display: block; 
-    }
+
     #pre
     {
         display:flex; 
         flex-wrap: wrap;
-        height: auto; 
-
+         
     }
     #reco
     {
