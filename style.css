@@ -231,6 +231,23 @@ a
 {
     color: #3F51B5; 
 }
+#reco
+{
+    font-family: Calibri;
+}
+#premier
+{
+    display: block;
+    padding-left: 10px; 
+    padding-right: 50px;
+}
+#te
+{
+    margin: auto;
+    margin-left: 10px;
+    display: flex; 
+    flex-direction: row;
+}
 a:hover
 {
     font-size: 15px; 
@@ -292,6 +309,7 @@ a:hover
         min-width: 320px;
         margin: auto; 
     }
+    #
     #pre img 
     {
         display: block; 
@@ -302,6 +320,11 @@ a:hover
         flex-wrap: wrap;
         height: auto; 
 
+    }
+    #reco
+    {
+        min-width: 320px; 
+        width: auto;
     }
     td
     {
